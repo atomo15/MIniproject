@@ -1,4 +1,10 @@
+
+<script>
+
 function updatedisplay() {
-	var edit = document.getElementById("edit").value;
-    document.getElementById("realtime-display").innerHTML = edit;
+	x = document.getElementById("stable-display").value;
+	y = document.getElementById("edit").value;
+    document.getElementById("realtime-display").innerHTML = x+y;
 }
+
+</script>
