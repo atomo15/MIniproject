@@ -8,8 +8,3 @@
 
 ## Creator
 - Synhiranakkrakul, Thunnathorne
-
-<html>
-	<br>
-	<center><h1><b>Welcome to Python UI Editor</b></h1></center>
-</html>
