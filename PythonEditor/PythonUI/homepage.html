@@ -18,7 +18,12 @@
 	<center><h2><b>Edit Section</b></h2></center>
 	<center><textarea cols="100" rows="25" id="edit" onkeyup="updatedisplay()"></textarea></center>
 
-	<center><button type="submit" onclick="submitcode()">Submit</button></center>
+	<center>
+		<button type="submit" onclick="submitcode()">Submit</button>
+		<br>
+		<button type="submit" onclick="undocode()">Undo</button>
+	</center>
+
 
 	<input type="hidden" id="backupcode" value="No backup code">
 	
