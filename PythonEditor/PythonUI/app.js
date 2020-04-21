@@ -42,6 +42,8 @@ function submitcode() {
 		document.getElementById("backupcode").value = "No backup code";
 		document.getElementById("stable-display-id").innerHTML = z;
 		document.getElementById("stable-display-id").value = z;
+		document.getElementById("edit").value = "";
+		document.getElementById("edit").value = "";
 	}
 	else
 	{
@@ -51,6 +53,8 @@ function submitcode() {
 		document.getElementById("backupcode").innerHTML = pz;
 		document.getElementById("stable-display-id").innerHTML = z;
 		document.getElementById("stable-display-id").value = z;
+		document.getElementById("edit").value = "";
+		document.getElementById("edit").value = "";
 	}
 }
 
