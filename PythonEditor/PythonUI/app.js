@@ -11,3 +11,7 @@ function updatedisplay() {
 		document.getElementById("realtime-display").innerHTML = x+y;
 	}
 }
+
+function submitcode() {
+	
+}
