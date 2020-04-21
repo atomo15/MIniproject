@@ -42,8 +42,6 @@ function submitcode() {
 		document.getElementById("backupcode").value = "No backup code";
 		document.getElementById("stable-display-id").innerHTML = z;
 		document.getElementById("stable-display-id").value = z;
-		document.getElementById("edit").value = "";
-		document.getElementById("edit").value = "";
 	}
 	else
 	{
@@ -51,11 +49,11 @@ function submitcode() {
 		console.log(pz)
 		document.getElementById("backupcode").value = pz;
 		document.getElementById("backupcode").innerHTML = pz;
-		document.getElementById("stable-display-id").innerHTML = x+z;
-		document.getElementById("stable-display-id").value = x+z;
-		document.getElementById("edit").value = "";
-		document.getElementById("edit").value = "";
+		document.getElementById("stable-display-id").innerHTML = x+"\n"+z;
+		document.getElementById("stable-display-id").value = x+"\n"+z;
 	}
+	document.getElementById("edit").value = "";
+	document.getElementById("edit").value = "";
 }
 
 function undocode() {
