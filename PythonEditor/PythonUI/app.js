@@ -31,6 +31,10 @@ function submitcode() {
 		document.getElementById("stable-display-id").innerHTML = z;
 		document.getElementById("stable-display-id").value = z;
 	}
+}
 
-	
+function undocode() {
+	backupcode = document.getElementById("backupcode").value;
+	document.getElementById("stable-display-id").innerHTML = backupcode;
+	document.getElementById("stable-display-id").value = backupcode;
 }
