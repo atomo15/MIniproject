@@ -39,7 +39,6 @@ function submitcode() {
 
 	if(x==null)
 	{
-		document.getElementById("backupcode").value = "No backup code";
 		document.getElementById("stable-display-id").innerHTML = z;
 		document.getElementById("stable-display-id").value = z;
 	}
