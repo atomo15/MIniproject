@@ -15,7 +15,7 @@ function updatedisplay() {
 function submitcode() {
 	z = document.getElementById("realtime-display").value;
 	pz = document.getElementById("stable-display-id").value;
-	document.getElementById("backupcode").value = pz;
+	//document.getElementById("backupcode").value = pz;
 	document.getElementById("backupcode").innerHTML = pz;
 	document.getElementById("stable-display-id").innerHTML = z;
 }
