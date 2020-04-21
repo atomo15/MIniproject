@@ -48,8 +48,8 @@ function submitcode() {
 		console.log(pz)
 		document.getElementById("backupcode").value = pz;
 		document.getElementById("backupcode").innerHTML = pz;
-		document.getElementById("stable-display-id").innerHTML = x+"\n"+z;
-		document.getElementById("stable-display-id").value = x+"\n"+z;
+		document.getElementById("stable-display-id").innerHTML = x+"<br>"+z;
+		document.getElementById("stable-display-id").value = x+"<br>"+z;
 	}
 	document.getElementById("edit").value = "";
 	document.getElementById("edit").value = "";
