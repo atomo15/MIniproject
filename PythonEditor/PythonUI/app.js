@@ -13,10 +13,24 @@ function updatedisplay() {
 }
 
 function submitcode() {
+	x = document.getElementById("stable-display-id").value;
 	z = document.getElementById("realtime-display").value;
-	pz = document.getElementById("stable-display-id").value;
-	console.log(pz)
-	//document.getElementById("backupcode").value = pz;
-	document.getElementById("backupcode").innerHTML = pz;
-	document.getElementById("stable-display-id").innerHTML = z;
+
+	if(x==null)
+	{
+		document.getElementById("backupcode").value = "No backup code";
+		document.getElementById("stable-display-id").innerHTML = z;
+		document.getElementById("stable-display-id").value = z;
+	}
+	else
+	{
+		pz = x;
+		console.log(pz)
+		document.getElementById("backupcode").value = pz;
+		document.getElementById("backupcode").innerHTML = pz;
+		document.getElementById("stable-display-id").innerHTML = z;
+		document.getElementById("stable-display-id").value = z;
+	}
+
+	
 }
