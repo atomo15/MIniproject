@@ -13,5 +13,6 @@ function updatedisplay() {
 }
 
 function submitcode() {
-	
+	x = document.getElementById("realtime-display").value;
+	document.getElementById("stable-display-id").innerHTML = x;
 }
