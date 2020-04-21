@@ -51,8 +51,8 @@ function submitcode() {
 		console.log(pz)
 		document.getElementById("backupcode").value = pz;
 		document.getElementById("backupcode").innerHTML = pz;
-		document.getElementById("stable-display-id").innerHTML = z;
-		document.getElementById("stable-display-id").value = z;
+		document.getElementById("stable-display-id").innerHTML = x+z;
+		document.getElementById("stable-display-id").value = x+z;
 		document.getElementById("edit").value = "";
 		document.getElementById("edit").value = "";
 	}
