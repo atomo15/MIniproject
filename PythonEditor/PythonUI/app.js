@@ -27,3 +27,7 @@ function undocode() {
 	document.getElementById("stable-display-id").innerHTML = backupcode;
 	document.getElementById("stable-display-id").value = backupcode;
 }
+
+function reload() {
+	window.location.reload();
+}
