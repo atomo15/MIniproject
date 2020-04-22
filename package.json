@@ -1,0 +1,19 @@
+{
+  "name": "miniproject",
+  "version": "1.0.0",
+  "description": "- https://atomo15.github.io/Miniproject/PythonEditor/PythonUI/homepage.html - https://atomo15.github.io/Miniproject/PythonEditor/PythonUI/homepage.html?edit=#homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atomo15/Miniproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atomo15/Miniproject/issues"
+  },
+  "homepage": "https://github.com/atomo15/Miniproject#readme"
+}
