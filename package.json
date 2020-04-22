@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/atomo15/Miniproject/issues"
   },
-  "homepage": "https://github.com/atomo15/Miniproject#readme"
+  "homepage": "https://github.com/atomo15/Miniproject#readme",
+  "dependencies": {
+    "npm": "^5.10.0"
+  }
 }
