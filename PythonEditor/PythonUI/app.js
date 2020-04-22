@@ -33,11 +33,7 @@ function reload() {
 }
 
 function loadfile() {
-	const fs = require('fs') 
-  
-	fs.readFile('input.txt', (err, data) => { 
-	    if (err) throw err; 
-	  
-	    console.log(data.toString()); 
-	}) 
+	var txt;
+	txt = loadStrings("input.txt");
+	console.log(txt)
 }
