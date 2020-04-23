@@ -68,6 +68,7 @@ function convert2keyvalue() {
 		}
 		result = result+"}";
 		data2.innerText = result;
+		alert(result);
 	}
 
 
