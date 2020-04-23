@@ -44,12 +44,12 @@ function convert2keyvalue() {
 	console.log("Total value: ",sum_val);
 
 	if(sum_val>sum_key){
-		var result = "some key is missing "+(sum_val-sum_key);
+		var result = "some key is missing ( "+(sum_val-sum_key)+" )";
 		console.log(result);
 		data2.innerText = result;
 	}
 	else if(sum_key>sum_val){
-		var result = "some value is missing"+(sum_key-sum_val);
+		var result = "some value is missing ( "+(sum_key-sum_val)+" )";
 		console.log(result);
 		data2.innerText = result;
 	}
