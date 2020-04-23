@@ -19,17 +19,30 @@ function convert2keyvalue() {
 	var key = document.getElementById("obj-key").value;
 	var value = document.getElementById("obj-val").value;
 	var data2 = document.getElementById("data2");
+	var letterNumber = /^[0-9a-zA-Z]+$/;
 
 	data2.style.display = "block";
-	console.log(key);
-	console.log(value);
+	
+	//console.log(key);
+	//console.log(value);
 
 	var key_split = key.split(" ");
 	var sum_key = 0;
 
-	for (var i = 0;i<key_split.length ;i++) {
-		sum_key+=1;
-		//console.log(key_split[i])
+	var key_length = key_split.length;
+
+	if(key[key.length-1]==" ")
+	{
+		//console.log("ERROR")
+		key_length = key_split.length-1;
+	}
+
+	for (var i = 0;i<key_length;i++) {
+		if(key_split[i].match(letterNumber))
+		{
+			sum_key+=1;
+		}
+		console.log(key_split[i])
 	}
 	console.log("Total key: ",sum_key);
 
@@ -37,9 +50,20 @@ function convert2keyvalue() {
 	var val_split = value.split(" ");
 	var sum_val = 0;
 
-	for (var i = 0;i<val_split.length ;i++) {
-		sum_val+=1;
-		//console.log(key_split[i])
+	var val_length = val_split.length;
+
+	if(value[value.length-1]==" ")
+	{
+		//console.log("ERROR")
+		val_length = val_split.length-1;
+	}
+
+	for (var i = 0;i<val_length;i++) {
+		if(val_split[i].match(letterNumber))
+		{
+			sum_val+=1;
+		}
+		console.log(val_split[i])
 	}
 	console.log("Total value: ",sum_val);
 
