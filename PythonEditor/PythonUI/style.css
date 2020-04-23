@@ -16,6 +16,46 @@ table, th, td {
   border: 1px solid white;
 }
 
+.top-menu{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: black;/*#f1f1f1;*/
+  position: relative;
+  height: 25%;
+  overflow: auto;
+}
+
+.logo-left{
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: black;/*#f1f1f1;*/
+  position: relative;
+  height: 20%;
+  overflow: auto;
+}
+
+.logo-center{
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  background-color: black;/*#f1f1f1;*/
+  position: relative;
+  height: 20%;
+  overflow: auto;
+}
+
+.logo-right{
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: black;/*#f1f1f1;*/
+  position: relative;
+  height: 20%;
+  overflow: auto;
+}
+
 
 /* The side navigation menu */
 .sidebar {
