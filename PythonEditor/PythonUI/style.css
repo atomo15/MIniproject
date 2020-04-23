@@ -17,12 +17,12 @@ table, th, td {
 }
 
 .top-menu{
-  margin: 0.5%;
+  margin: 1%;
   padding: 0;
   width: 100%;
   background-color: black;/*#f1f1f1;*/
   position: relative;
-  //height: 25%;
+  /*height: 25%;*/
   overflow: auto;
 }
 
@@ -84,8 +84,8 @@ table, th, td {
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
-  background-color: #555;
-  color: white;
+  background-color: aqua;/*#555;*/
+  color: black;
 }
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
