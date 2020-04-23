@@ -7,10 +7,11 @@ function popup2pair() {
   	} else {
   		console.log("Hi")
     	data1.style.display = "block";
+    	var w = '<b><h1>Object Name: </h1></b><input type="text">';
     	var x = '<b><h1>KEY : </h1></b><input type="text">';
 		var y = '<b><h1>VALUES : </h1></b><input type="text">';
 		var z = '<br><br><a href="#popup2key" class="myButton" >Convert</a>'
-		data1.innerHTML= x+y+z;
+		data1.innerHTML= w+x+y+z;
   	}
 	
 	
