@@ -10,15 +10,13 @@
 
 	<body style="background-color:black;" onload="loadfile()">
 	<br>
-	<br>
-	<br>
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- The sidebar -->
 <div class="sidebar">
-  <a class="active" href="homepage.html?edit=#homepage">Home</a>
-  <a href="editorpage.html">Editor</a>
+  <a href="homepage.html?edit=#homepage">Home</a>
+  <a class="active" href="#news">Editor</a>
   <a href="#contact">Convertor</a>
   <a href="#about">About</a>
 </div>
@@ -45,6 +43,39 @@
 		</table>
 	</center>
 	<br>
+
+
+
+	<center><h2><b>Display Code Section</b></h2></center>
+	<center>
+		<table>
+		        <tr>
+		            <th>Line</th>
+		            <th>Code</th>
+		        </tr>
+		        <tr>
+		            <td><h3>1</h3></td>
+		            <td>
+		            	<h3>
+		            		<span id="stable-display-id" name="stable-display" value="No Submitted Code"></span>
+		            	</h3>
+		            </td>
+		        </tr>
+		</table>
+	</center>
+
+
+	<center><h2><b>Edit Section</b></h2></center>
+	<center>
+		<!-- <textarea cols="80" rows="25" id="edit" required></textarea> -->
+		<form action="#homepage">
+		<input type="text" id="edit"  name="edit">&nbsp;&nbsp;
+		<button type="submit" onclick="submitcode()">Save</button>&nbsp;&nbsp;
+		</form>
+		<button type="submit" onclick="reload()">Clear</button>
+		<button type="submit" onclick="undocode()">Undo</button>
+		
+	</center>
 
 
 	<input type="hidden" id="backupcode" value="">
